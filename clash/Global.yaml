@@ -99,6 +99,7 @@ payload:
   - DOMAIN-SUFFIX,openvpn.net
   - DOMAIN-SUFFIX,owltail.com
   - DOMAIN-SUFFIX,oxfordscholarship.com
+  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,parsevideo.com
   - DOMAIN-SUFFIX,paste.ee
   - DOMAIN-SUFFIX,pastie.org
