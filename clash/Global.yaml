@@ -1,4 +1,6 @@
 payload:
+  # added by yeuleh
+  - DOMAIN-SUFFIX,dupay.one
   # (D.C.S.G?)
   - DOMAIN-SUFFIX,9cache.com
   - DOMAIN-SUFFIX,9gag.com
