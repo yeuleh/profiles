@@ -70,4 +70,7 @@ DOMAIN-SUFFIX,springsunday.net,DIRECT
 DOMAIN-SUFFIX,tjupt.org,DIRECT
 DOMAIN-SUFFIX,totheglory.im,DIRECT
 
+# > Taobao
+DOMAIN,taobao.com,DIRECT
+
 GEOIP,CN,DIRECT
