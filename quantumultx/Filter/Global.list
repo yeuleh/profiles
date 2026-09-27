@@ -211,6 +211,7 @@ DOMAIN-SUFFIX,blogger.com,PROXY
 DOMAIN-SUFFIX,chrome.com,PROXY
 DOMAIN-SUFFIX,chromium.org,PROXY
 DOMAIN-SUFFIX,debug.com,PROXY
+DOMAIN-SUFFIX,deepmind.com,PROXY
 DOMAIN-SUFFIX,dialogflow.com,PROXY
 DOMAIN-SUFFIX,feedburner.com,PROXY
 DOMAIN-SUFFIX,firebaseio.com,PROXY
@@ -219,6 +220,7 @@ DOMAIN-SUFFIX,getoutline.org,PROXY
 DOMAIN-SUFFIX,ggpht.com,PROXY
 DOMAIN-SUFFIX,gmail.com,PROXY
 DOMAIN-SUFFIX,gmodules.com,PROXY
+DOMAIN-SUFFIX,gstatic.com,PROXY
 DOMAIN-SUFFIX,gvt0.com,PROXY
 DOMAIN-SUFFIX,gvt1.com,PROXY
 DOMAIN-SUFFIX,gvt3.com,PROXY
@@ -410,6 +412,7 @@ DOMAIN-SUFFIX,twitpic.com,PROXY
 DOMAIN-SUFFIX,twitter.com,PROXY
 DOMAIN-SUFFIX,twitter.jp,PROXY
 DOMAIN-SUFFIX,vine.co,PROXY
+DOMAIN-SUFFIX,x.com,PROXY
 # > Wikimedia Foundation
 DOMAIN-SUFFIX,mediawiki.org,PROXY
 DOMAIN-SUFFIX,wikibooks.org,PROXY
@@ -430,6 +433,52 @@ DOMAIN,search.yahoo.co.jp,PROXY
 # > Yandex
 DOMAIN-SUFFIX,yadi.sk,PROXY
 DOMAIN,disk.yandex.com,PROXY
+# > OpenAI
+DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN-SUFFIX,chatgpt.com,PROXY
+DOMAIN-SUFFIX,oaistatic.com,PROXY
+DOMAIN-SUFFIX,oaiusercontent.com,PROXY
+DOMAIN-SUFFIX,oaistatsig.com,PROXY
+# > Anthropic
+DOMAIN-SUFFIX,anthropic.com,PROXY
+DOMAIN-SUFFIX,claude.ai,PROXY
+DOMAIN-SUFFIX,claude.com,PROXY
+DOMAIN-SUFFIX,claudeusercontent.com,PROXY
+# > xAI
+DOMAIN-SUFFIX,x.ai,PROXY
+DOMAIN-SUFFIX,grok.com,PROXY
+# > AI Services
+DOMAIN-SUFFIX,perplexity.ai,PROXY
+DOMAIN-SUFFIX,mistral.ai,PROXY
+DOMAIN-SUFFIX,poe.com,PROXY
+DOMAIN-SUFFIX,openrouter.ai,PROXY
+DOMAIN-SUFFIX,huggingface.co,PROXY
+DOMAIN-SUFFIX,hf.co,PROXY
+# > Cursor
+DOMAIN-SUFFIX,cursor.com,PROXY
+DOMAIN-SUFFIX,cursor.sh,PROXY
+DOMAIN-SUFFIX,cursor-cdn.com,PROXY
+DOMAIN-SUFFIX,cursorapi.com,PROXY
+DOMAIN-SUFFIX,cursorvm.com,PROXY
+# > GitHub Copilot
+DOMAIN-SUFFIX,githubcopilot.com,PROXY
+DOMAIN,default.exp-tas.com,PROXY
+# > Developer & Collaboration
+DOMAIN-SUFFIX,ghcr.io,PROXY
+DOMAIN-SUFFIX,docker.com,PROXY
+DOMAIN-SUFFIX,docker.io,PROXY
+DOMAIN-SUFFIX,npmjs.com,PROXY
+DOMAIN-SUFFIX,npmjs.org,PROXY
+DOMAIN-SUFFIX,pypi.org,PROXY
+DOMAIN-SUFFIX,pythonhosted.org,PROXY
+DOMAIN-SUFFIX,gitlab.com,PROXY
+DOMAIN-SUFFIX,gitlab.io,PROXY
+DOMAIN-SUFFIX,notion.so,PROXY
+DOMAIN-SUFFIX,notion.site,PROXY
+DOMAIN-SUFFIX,notion.com,PROXY
+DOMAIN-SUFFIX,slack.com,PROXY
+DOMAIN-SUFFIX,slack-edge.com,PROXY
+DOMAIN-SUFFIX,slack-imgs.com,PROXY
 
 # (Region-Restricted Access Denied)
 DOMAIN-SUFFIX,aicoin.com,PROXY

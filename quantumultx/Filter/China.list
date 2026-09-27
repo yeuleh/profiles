@@ -73,4 +73,18 @@ DOMAIN-SUFFIX,totheglory.im,DIRECT
 # > Taobao
 DOMAIN-SUFFIX,taobao.com,DIRECT
 
+# > Domestic AI
+DOMAIN-SUFFIX,deepseek.com,DIRECT
+DOMAIN-SUFFIX,kimi.com,DIRECT
+DOMAIN-SUFFIX,moonshot.cn,DIRECT
+DOMAIN-SUFFIX,bigmodel.cn,DIRECT
+DOMAIN-SUFFIX,modelscope.cn,DIRECT
+DOMAIN-SUFFIX,siliconflow.cn,DIRECT
+# > AWS China
+DOMAIN-SUFFIX,amazonaws.cn,DIRECT
+# > Azure China (21Vianet)
+DOMAIN-SUFFIX,azure.cn,DIRECT
+DOMAIN-SUFFIX,chinacloudapi.cn,DIRECT
+DOMAIN-SUFFIX,windowsazure.cn,DIRECT
+
 GEOIP,CN,DIRECT

@@ -83,7 +83,6 @@ DOMAIN,fls-na.amazon.com,Streaming
 DOMAIN,avodmp4s3ww-a.akamaihd.net,Streaming
 DOMAIN,d25xi40x97liuc.cloudfront.net,Streaming
 DOMAIN,dmqdd6hw24ucf.cloudfront.net,Streaming
-DOMAIN,dmqdd6hw24ucf.cloudfront.net,Streaming
 DOMAIN,d22qjgkvxw22r6.cloudfront.net,Streaming
 DOMAIN,d1v5ir2lpwr8os.cloudfront.net,Streaming
 DOMAIN,d27xxe7juh1us6.cloudfront.net,Streaming
@@ -164,6 +163,7 @@ DOMAIN-SUFFIX,hbonow.com,Streaming
 USER-AGENT,HBOMAX*,Streaming
 DOMAIN-SUFFIX,hbomax.com,Streaming
 DOMAIN-SUFFIX,hbomaxcdn.com,Streaming
+DOMAIN-SUFFIX,max.com,Streaming
 # > HBO Asia
 USER-AGENT,HBO%20GO%20PROD*,Streaming
 DOMAIN-SUFFIX,hbogoasia.com,Streaming
@@ -308,7 +308,6 @@ DOMAIN-KEYWORD,tiktokcdn-,Streaming
 # > TVer
 USER-AGENT,TVer-Release*,Streaming
 DOMAIN-SUFFIX,tver.jp,Streaming
-DOMAIN,edge.api.brightcove.com,Streaming
 # > ViuTV
 USER-AGENT,Viu*,Streaming
 DOMAIN-SUFFIX,viu.com,Streaming

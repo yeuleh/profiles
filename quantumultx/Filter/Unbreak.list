@@ -13,7 +13,6 @@ DOMAIN,clientservices.googleapis.com,DIRECT
 DOMAIN,update.googleapis.com,DIRECT
 DOMAIN,dl.google.com,DIRECT
 DOMAIN,dl.l.google.com,DIRECT
-DOMAIN,update.googleapis.com,DIRECT
 # >> Firebase Cloud Messaging
 DOMAIN,mtalk.google.com,DIRECT
 DOMAIN,alt1-mtalk.google.com,DIRECT
