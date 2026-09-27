@@ -3,7 +3,7 @@ DOMAIN-SUFFIX,flyert.com,DIRECT
 DOMAIN-SUFFIX,gandi.net,DIRECT
 DOMAIN-SUFFIX,snapdrop.net,DIRECT
 DOMAIN,download.jetbrains.com,DIRECT
-DOMAIN,origin-a.akamaihd.ne,DIRECT
+DOMAIN,origin-a.akamaihd.net,DIRECT
 # ---(Microsoft)---
 # > Outlook
 DOMAIN,outlook.office365.com,DIRECT
@@ -71,6 +71,6 @@ DOMAIN-SUFFIX,tjupt.org,DIRECT
 DOMAIN-SUFFIX,totheglory.im,DIRECT
 
 # > Taobao
-DOMAIN,taobao.com,DIRECT
+DOMAIN-SUFFIX,taobao.com,DIRECT
 
 GEOIP,CN,DIRECT

@@ -1,3 +1,3 @@
-payload:
-  # Advertising
-  - DOMAIN-KEYWORD,adservice
+# 已弃用（2026-09）：静态快照无法跟进广告域名轮换，且 DOMAIN-KEYWORD,adservice
+# 宽匹配会误杀正常主机。请在主配置中使用 rule-provider 订阅，见本目录 README.md。
+payload: []

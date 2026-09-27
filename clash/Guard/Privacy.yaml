@@ -1,6 +1,4 @@
-payload:
-  # Privacy
-  # > Google
-  - DOMAIN,safebrowsing.googleapis.com
-  # > Tencent
-  - DOMAIN,safebrowsing.urlsec.qq.com
+# 已弃用（2026-09）：原两条规则拦截的 safebrowsing.googleapis.com /
+# safebrowsing.urlsec.qq.com 是 Google/腾讯的安全浏览（钓鱼、恶意软件告警）API，
+# 拦截会关闭浏览器安全警告。隐私拦截需求由订阅源的隐私子集覆盖，见 README.md。
+payload: []

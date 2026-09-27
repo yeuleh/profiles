@@ -1,5 +1,7 @@
 payload:
   # Telegram
+  # 注：内容与 Global.yaml 的 Telegram 段重叠；本文件保留作为独立策略入口
+  # （RULE-SET,Telegram,自定义出口组）。需要指定地区出口可用 TelegramSG/US/NL。
   - DOMAIN-SUFFIX,t.me
   - DOMAIN-SUFFIX,tdesktop.com
   - DOMAIN-SUFFIX,telegra.ph

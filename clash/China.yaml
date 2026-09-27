@@ -5,11 +5,28 @@ payload:
   - DOMAIN-SUFFIX,snapdrop.net
   - DOMAIN,download.jetbrains.com
   - DOMAIN,origin-a.akamaihd.net
+  # > 国内 AI（DIRECT；各家国际版已列入 Global.yaml）
+  - DOMAIN-SUFFIX,bigmodel.cn
+  - DOMAIN-SUFFIX,kimi.com
+  - DOMAIN-SUFFIX,moonshot.cn
+  - DOMAIN-SUFFIX,deepseek.com
+  - DOMAIN-SUFFIX,hailuoai.com
+  - DOMAIN-SUFFIX,minimax.cn
+  - DOMAIN-SUFFIX,modelscope.cn
+  - DOMAIN-SUFFIX,siliconflow.cn
+  - DOMAIN-SUFFIX,yiyan.com
+  - DOMAIN-SUFFIX,baidubce.com
+  # aliyuncs.com 为阿里云 API 共享域；国际版 dashscope-intl 如需代理请加 exact 覆盖
+  - DOMAIN-SUFFIX,aliyuncs.com
+  - DOMAIN-SUFFIX,volces.com
+  - DOMAIN,yuanbao.tencent.com
+  # > Azure China（世纪互联）
+  - DOMAIN-SUFFIX,azure.cn
+  - DOMAIN-SUFFIX,windowsazure.cn
+  - DOMAIN-SUFFIX,chinacloudapi.cn
+  - DOMAIN-SUFFIX,partner.microsoftonline.cn
   # ---(Microsoft)---
-  # > Outlook
-  - DOMAIN,outlook.office365.com
-  - DOMAIN,smtp-mail.outlook.com
-  - DOMAIN,smtp.office365.com
+  # > Outlook（直连例外已移至 Unbreak.yaml，避免被 Global 的 office365.com 后缀遮蔽）
   # > Windows Server Update Services
   - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,update.microsoft.com

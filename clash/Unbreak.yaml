@@ -1,5 +1,10 @@
 payload:
   # Unbreak
+  # > Microsoft Outlook（exact 直连例外，须先于 Global.yaml 的 office365.com
+  # 后缀命中；自 China.yaml 迁入）
+  - DOMAIN,outlook.office365.com
+  - DOMAIN,smtp-mail.outlook.com
+  - DOMAIN,smtp.office365.com
   # > Google
   - DOMAIN-SUFFIX,blog.google
   - DOMAIN-SUFFIX,googletraveladservices.com
@@ -17,3 +22,5 @@ payload:
   - DOMAIN,alt6-mtalk.google.com
   - DOMAIN,alt7-mtalk.google.com
   - DOMAIN,alt8-mtalk.google.com
+  # > Bing 中国（避免被 Global.yaml 的 bing.com 后缀连带代理）
+  - DOMAIN-SUFFIX,cn.bing.com

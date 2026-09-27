@@ -101,7 +101,6 @@ payload:
   - DOMAIN-SUFFIX,openvpn.net
   - DOMAIN-SUFFIX,owltail.com
   - DOMAIN-SUFFIX,oxfordscholarship.com
-  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,parsevideo.com
   - DOMAIN-SUFFIX,paste.ee
   - DOMAIN-SUFFIX,pastie.org
@@ -188,7 +187,41 @@ payload:
   - DOMAIN-SUFFIX,zophar.net
   - DOMAIN-SUFFIX,zyxel.com
   - DOMAIN,lab.skk.moe
-  - DOMAIN,ocsp.int-x3.letsencrypt.org
+  # > AI / GenAI
+  # >> OpenAI（官方 allowlist：help.openai.com/en/articles/9247338）
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,oaistatsig.com
+  # >> Anthropic（官方：code.claude.com/docs/en/corporate-proxy）
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
+  # >> xAI
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com
+  # >> Others
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,mistral.ai
+  - DOMAIN-SUFFIX,poe.com
+  - DOMAIN-SUFFIX,openrouter.ai
+  - DOMAIN-SUFFIX,huggingface.co
+  - DOMAIN-SUFFIX,hf.co
+  # >> Cursor（官方：cursor.com/docs/enterprise/network-configuration）
+  - DOMAIN-SUFFIX,cursor.sh
+  - DOMAIN-SUFFIX,cursor.com
+  - DOMAIN-SUFFIX,cursor-cdn.com
+  - DOMAIN-SUFFIX,cursorapi.com
+  - DOMAIN-SUFFIX,cursorvm.com
+  # >> 中国厂商国际版（国内直连版见 China.yaml）
+  - DOMAIN-SUFFIX,kimi.ai
+  - DOMAIN-SUFFIX,moonshot.ai
+  - DOMAIN-SUFFIX,z.ai
+  - DOMAIN-SUFFIX,minimax.io
+  - DOMAIN-SUFFIX,hailuoai.video
+  - DOMAIN-SUFFIX,siliconflow.com
   # > Akamai
   - DOMAIN,a248.e.akamai.net
   - DOMAIN,a771.dscq.akamai.net
@@ -216,6 +249,7 @@ payload:
   - DOMAIN-SUFFIX,chromium.org
   - DOMAIN-SUFFIX,debug.com
   - DOMAIN-SUFFIX,dialogflow.com
+  - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,feedburner.com
   - DOMAIN-SUFFIX,firebaseio.com
   - DOMAIN-SUFFIX,g.co
@@ -223,6 +257,7 @@ payload:
   - DOMAIN-SUFFIX,ggpht.com
   - DOMAIN-SUFFIX,gmail.com
   - DOMAIN-SUFFIX,gmodules.com
+  - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,gvt0.com
   - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt3.com
@@ -256,10 +291,6 @@ payload:
   - DOMAIN-SUFFIX,bloomberg.com
   - DOMAIN-SUFFIX,bloomberg.de
   - DOMAIN-SUFFIX,bloombergview.com
-  # > Clubhouse
-  - DOMAIN-SUFFIX,clubhouseapi.com
-  - DOMAIN-SUFFIX,joinclubhouse.com
-  - DOMAIN,clubhouse.pubnubapi.com
   # > Crypto
   - DOMAIN-SUFFIX,aex.com
   - DOMAIN-SUFFIX,bibox.com
@@ -280,7 +311,6 @@ payload:
   - DOMAIN-SUFFIX,coinmarketcap.com
   - DOMAIN-SUFFIX,coinone.co.kr
   - DOMAIN-SUFFIX,etherscan.io
-  - DOMAIN-SUFFIX,ftx.com
   - DOMAIN-SUFFIX,gate.io
   - DOMAIN-SUFFIX,gemini.com
   - DOMAIN-SUFFIX,huobi.com
@@ -302,6 +332,23 @@ payload:
   - DOMAIN-SUFFIX,dropbox.com
   - DOMAIN-SUFFIX,dropboxapi.com
   - DOMAIN-SUFFIX,dropboxusercontent.com
+  # > Docker（官方：docs.docker.com/desktop/setup/allow-list）
+  - DOMAIN-SUFFIX,docker.com
+  - DOMAIN-SUFFIX,docker.io
+  - DOMAIN-SUFFIX,dhi.io
+  # > Dev & Collaboration
+  - DOMAIN-SUFFIX,gitlab.com
+  - DOMAIN-SUFFIX,npmjs.org
+  - DOMAIN-SUFFIX,npmjs.com
+  - DOMAIN-SUFFIX,pypi.org
+  - DOMAIN-SUFFIX,pythonhosted.org
+  - DOMAIN-SUFFIX,notion.so
+  - DOMAIN-SUFFIX,notion.site
+  - DOMAIN-SUFFIX,notion.com
+  - DOMAIN-SUFFIX,slack.com
+  - DOMAIN-SUFFIX,slack-edge.com
+  - DOMAIN-SUFFIX,slack-imgs.com
+  - DOMAIN-SUFFIX,zoom.us
   # > Fastly
   - DOMAIN-SUFFIX,freetls.fastly.net
   - DOMAIN,cloud-cdn-digitalocean-com.global.ssl.fastly.net
@@ -340,11 +387,18 @@ payload:
   - DOMAIN-KEYWORD,.facebook.
   # > Microsoft
   - DOMAIN-SUFFIX,aka.ms
+  - DOMAIN-SUFFIX,microsoftonline.com
+  - DOMAIN-SUFFIX,office.com
+  - DOMAIN-SUFFIX,office365.com
+  - DOMAIN-SUFFIX,sharepoint.com
   - DOMAIN-SUFFIX,github.blog
   - DOMAIN-SUFFIX,github.com
   - DOMAIN-SUFFIX,github.io
   - DOMAIN-SUFFIX,githubassets.com
+  - DOMAIN-SUFFIX,githubcopilot.com
   - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,ghcr.io
+  - DOMAIN,default.exp-tas.com
   - DOMAIN-SUFFIX,onedrive.live.com
   - DOMAIN-SUFFIX,streaming.mediaservices.windows.net
   - DOMAIN,assets1.xboxlive.com
@@ -414,6 +468,7 @@ payload:
   - DOMAIN-SUFFIX,twitter.com
   - DOMAIN-SUFFIX,twitter.jp
   - DOMAIN-SUFFIX,vine.co
+  - DOMAIN-SUFFIX,x.com
   # > Wikimedia Foundation
   - DOMAIN-SUFFIX,mediawiki.org
   - DOMAIN-SUFFIX,wikibooks.org
@@ -475,4 +530,3 @@ payload:
   - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,licdn.com
   - DOMAIN-SUFFIX,msn.com
-  - DOMAIN-SUFFIX,skype.com
