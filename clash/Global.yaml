@@ -194,6 +194,7 @@ payload:
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,oaistatsig.com
+  - DOMAIN-SUFFIX,sora.com
   # >> Anthropic（官方：code.claude.com/docs/en/corporate-proxy）
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
@@ -202,6 +203,7 @@ payload:
   # >> xAI
   - DOMAIN-SUFFIX,x.ai
   - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,grokipedia.com
   # >> Others
   - DOMAIN-SUFFIX,perplexity.ai
   - DOMAIN-SUFFIX,mistral.ai
@@ -209,12 +211,75 @@ payload:
   - DOMAIN-SUFFIX,openrouter.ai
   - DOMAIN-SUFFIX,huggingface.co
   - DOMAIN-SUFFIX,hf.co
+  - DOMAIN-SUFFIX,character.ai
+  - DOMAIN-SUFFIX,genspark.ai
+  - DOMAIN-SUFFIX,lmarena.ai
+  - DOMAIN-SUFFIX,groq.com
+  - DOMAIN-SUFFIX,together.ai
+  - DOMAIN-SUFFIX,together.xyz
+  - DOMAIN-SUFFIX,cohere.com
+  - DOMAIN-SUFFIX,cohere.ai
+  # >> Manus（含个人智能体应用 Cue，2026-09-28 发布）
+  - DOMAIN-SUFFIX,manus.im
+  - DOMAIN-SUFFIX,manuscdn.com
+  - DOMAIN-SUFFIX,cue.im
+  # >> Meta AI / Muse（个人智能体 Muse，2026-09-08 发布）
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,muse.ai
+  - DOMAIN-SUFFIX,llama.com
+  - DOMAIN-SUFFIX,llamameta.net
+  - DOMAIN,ai.meta.com
+  - DOMAIN,ai.developer.meta.com
   # >> Cursor（官方：cursor.com/docs/enterprise/network-configuration）
   - DOMAIN-SUFFIX,cursor.sh
   - DOMAIN-SUFFIX,cursor.com
   - DOMAIN-SUFFIX,cursor-cdn.com
   - DOMAIN-SUFFIX,cursorapi.com
   - DOMAIN-SUFFIX,cursorvm.com
+  # >> AI Coding
+  # Lovable
+  - DOMAIN-SUFFIX,lovable.dev
+  # v0（Vercel）
+  - DOMAIN-SUFFIX,v0.dev
+  - DOMAIN-SUFFIX,v0.app
+  # Bolt
+  - DOMAIN-SUFFIX,bolt.new
+  # Windsurf（Codeium）
+  - DOMAIN-SUFFIX,windsurf.com
+  - DOMAIN-SUFFIX,codeium.com
+  - DOMAIN-SUFFIX,codeiumdata.com
+  # Devin
+  - DOMAIN-SUFFIX,devin.ai
+  # Replit
+  - DOMAIN-SUFFIX,replit.com
+  - DOMAIN-SUFFIX,replit.dev
+  - DOMAIN-SUFFIX,replit.app
+  # >> AI 媒体生成
+  # Midjourney
+  - DOMAIN-SUFFIX,midjourney.com
+  # Runway
+  - DOMAIN-SUFFIX,runwayml.com
+  - DOMAIN-SUFFIX,runway.com
+  # Luma
+  - DOMAIN-SUFFIX,lumalabs.ai
+  # Pika
+  - DOMAIN-SUFFIX,pika.art
+  # Suno
+  - DOMAIN-SUFFIX,suno.com
+  - DOMAIN-SUFFIX,suno.ai
+  # Udio
+  - DOMAIN-SUFFIX,udio.com
+  # ElevenLabs
+  - DOMAIN-SUFFIX,elevenlabs.io
+  - DOMAIN-SUFFIX,elevenlabs.com
+  # HeyGen
+  - DOMAIN-SUFFIX,heygen.com
+  # Ideogram
+  - DOMAIN-SUFFIX,ideogram.ai
+  # Leonardo
+  - DOMAIN-SUFFIX,leonardo.ai
+  # Lovart
+  - DOMAIN-SUFFIX,lovart.ai
   # >> 中国厂商国际版（国内直连版见 China.yaml）
   - DOMAIN-SUFFIX,kimi.ai
   - DOMAIN-SUFFIX,moonshot.ai
@@ -222,6 +287,11 @@ payload:
   - DOMAIN-SUFFIX,minimax.io
   - DOMAIN-SUFFIX,hailuoai.video
   - DOMAIN-SUFFIX,siliconflow.com
+  - DOMAIN-SUFFIX,qwen.ai
+  - DOMAIN-SUFFIX,klingai.com
+  - DOMAIN-SUFFIX,trae.ai
+  - DOMAIN-SUFFIX,traeapi.us
+  - DOMAIN-SUFFIX,vidu.com
   # > Akamai
   - DOMAIN,a248.e.akamai.net
   - DOMAIN,a771.dscq.akamai.net
