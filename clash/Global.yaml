@@ -482,6 +482,23 @@ payload:
   - DOMAIN-SUFFIX,pixiv.net
   - DOMAIN-SUFFIX,pixiv.org
   - DOMAIN-SUFFIX,pximg.net
+  # > Private Tracker（境外站，自 China.yaml 迁入，2026-10）
+  - DOMAIN-SUFFIX,animebytes.tv
+  - DOMAIN-SUFFIX,awesome-hd.me
+  - DOMAIN-SUFFIX,broadcasthe.net
+  - DOMAIN-SUFFIX,classix-unlimited.co.uk
+  - DOMAIN-SUFFIX,empornium.me
+  - DOMAIN-SUFFIX,gazellegames.net
+  - DOMAIN-SUFFIX,hdbits.org
+  - DOMAIN-SUFFIX,icetorrent.org
+  - DOMAIN-SUFFIX,jpopsuki.eu
+  - DOMAIN-SUFFIX,morethan.tv
+  - DOMAIN-SUFFIX,myanonamouse.net
+  - DOMAIN-SUFFIX,ncore.cc
+  - DOMAIN-SUFFIX,passthepopcorn.me
+  - DOMAIN-SUFFIX,privatehd.to
+  - DOMAIN-SUFFIX,redacted.ch
+  - DOMAIN-SUFFIX,totheglory.im
   # > Reddit
   - DOMAIN-SUFFIX,redd.it
   - DOMAIN-SUFFIX,reddit.com

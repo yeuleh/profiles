@@ -356,6 +356,23 @@ DOMAIN-KEYWORD,.pinterest.,PROXY
 DOMAIN-SUFFIX,pixiv.net,PROXY
 DOMAIN-SUFFIX,pixiv.org,PROXY
 DOMAIN-SUFFIX,pximg.net,PROXY
+# > Private Tracker（境外站，自 China.list 迁入，2026-10）
+DOMAIN-SUFFIX,animebytes.tv,PROXY
+DOMAIN-SUFFIX,awesome-hd.me,PROXY
+DOMAIN-SUFFIX,broadcasthe.net,PROXY
+DOMAIN-SUFFIX,classix-unlimited.co.uk,PROXY
+DOMAIN-SUFFIX,empornium.me,PROXY
+DOMAIN-SUFFIX,gazellegames.net,PROXY
+DOMAIN-SUFFIX,hdbits.org,PROXY
+DOMAIN-SUFFIX,icetorrent.org,PROXY
+DOMAIN-SUFFIX,jpopsuki.eu,PROXY
+DOMAIN-SUFFIX,morethan.tv,PROXY
+DOMAIN-SUFFIX,myanonamouse.net,PROXY
+DOMAIN-SUFFIX,ncore.cc,PROXY
+DOMAIN-SUFFIX,passthepopcorn.me,PROXY
+DOMAIN-SUFFIX,privatehd.to,PROXY
+DOMAIN-SUFFIX,redacted.ch,PROXY
+DOMAIN-SUFFIX,totheglory.im,PROXY
 # > Reddit
 DOMAIN-SUFFIX,redd.it,PROXY
 DOMAIN-SUFFIX,reddit.com,PROXY
