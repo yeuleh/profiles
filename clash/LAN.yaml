@@ -1,0 +1,50 @@
+payload:
+  # > LAN / Private（自 666OS Private/PrivateIP 精选迁入，2026-10；
+  #    arpa 反解域与直连不可达的 NTP 源已略；QX 侧对应 filter_local LAN 段 + [dns] 路由器域名）
+  # >> 保留网段（IPv4）。注：198.18.0.0/15 含 fake-ip 默认池，如自定义 fake-ip 段请按需调整
+  - IP-CIDR,0.0.0.0/8
+  - IP-CIDR,10.0.0.0/8
+  - IP-CIDR,100.64.0.0/10
+  - IP-CIDR,127.0.0.0/8
+  - IP-CIDR,169.254.0.0/16
+  - IP-CIDR,172.16.0.0/12
+  - IP-CIDR,192.0.0.0/24
+  - IP-CIDR,192.0.2.0/24
+  - IP-CIDR,192.88.99.0/24
+  - IP-CIDR,192.168.0.0/16
+  - IP-CIDR,198.18.0.0/15
+  - IP-CIDR,198.51.100.0/24
+  - IP-CIDR,203.0.113.0/24
+  - IP-CIDR,224.0.0.0/4
+  - IP-CIDR,240.0.0.0/4
+  # >> 保留网段（IPv6）
+  - IP-CIDR6,::/127
+  - IP-CIDR6,100::/64
+  - IP-CIDR6,2001:db8::/32
+  - IP-CIDR6,fc00::/7
+  - IP-CIDR6,fe80::/10
+  - IP-CIDR6,ff00::/8
+  # >> 路由器 / NAS 管理域名（被 DNS 劫持到网关私网地址，走代理则无法打开管理页）
+  - DOMAIN-SUFFIX,tplogin.cn
+  - DOMAIN-SUFFIX,tplinkwifi.net
+  - DOMAIN-SUFFIX,falogin.cn
+  - DOMAIN-SUFFIX,melogin.cn
+  - DOMAIN-SUFFIX,miwifi.com
+  - DOMAIN-SUFFIX,router.asus.com
+  - DOMAIN-SUFFIX,asusrouter.com
+  - DOMAIN-SUFFIX,routerlogin.com
+  - DOMAIN-SUFFIX,routerlogin.net
+  - DOMAIN-SUFFIX,orbilogin.com
+  - DOMAIN-SUFFIX,linksyssmartwifi.com
+  - DOMAIN-SUFFIX,tendawifi.com
+  - DOMAIN-SUFFIX,hiwifi.com
+  - DOMAIN-SUFFIX,phicomm.me
+  - DOMAIN-SUFFIX,router.ctc
+  - DOMAIN,zte.home
+  - DOMAIN,my.router
+  # >> 内网服务发现 / 保留主机名
+  - DOMAIN-SUFFIX,plex.direct
+  - DOMAIN-SUFFIX,ts.net
+  - DOMAIN,localhost
+  - DOMAIN,lan
+  - DOMAIN-SUFFIX,local

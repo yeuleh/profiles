@@ -36,11 +36,7 @@ payload:
   - DOMAIN,wustat.windows.com
   - DOMAIN,ntservicepack.microsoft.com
   # ------
-  # > PayPal
-  - DOMAIN-SUFFIX,paypal.com
-  - DOMAIN-SUFFIX,paypal.me
-  - DOMAIN-SUFFIX,paypal-mktg.com
-  - DOMAIN-SUFFIX,paypalobjects.com
+  # > PayPal 已迁 Global.yaml（2026-10：直连已不可达，需代理）
   # > Steam
   - DOMAIN-SUFFIX,cm.steampowered.com
   - DOMAIN-SUFFIX,steamserver.net
@@ -54,6 +50,26 @@ payload:
   # > Speed Test
   - DOMAIN-SUFFIX,netspeedtestmaster.com
   - DOMAIN,speedtest.macpaw.com
+  - DOMAIN-SUFFIX,speedtest.cn
+  - DOMAIN,speedtest.10086.cn
+  # > 连网检测（Captive Portal / Connectivity Check，自 666OS Direct 迁入）
+  - DOMAIN,captive.apple.com
+  - DOMAIN,www.msftconnecttest.com
+  - DOMAIN,www.msftncsi.com
+  - DOMAIN,connect.rom.miui.com
+  - DOMAIN,connectivitycheck.platform.hicloud.com
+  - DOMAIN,connectivitycheck.platform.hihonorcloud.com
+  - DOMAIN,connect.qq.com
+  - DOMAIN,detectportal.firefox.com
+  # > NTP 时间同步
+  - DOMAIN-SUFFIX,ntp.org
+  - DOMAIN,ntp.aliyun.com
+  # > 公网 IP 查询（直连才能拿到真实出口 IP）
+  - DOMAIN,checkip.dyndns.org
+  - DOMAIN,checkipv6.dyndns.org
+  # > 下载 CDN（国内有节点，直连更快）
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,quickconnect.to
   # > Private Tracker（国内站；境外站及 totheglory.im 已迁 Global.yaml 走代理）
   - DOMAIN-SUFFIX,acg.rip
   - DOMAIN-SUFFIX,chdbits.co

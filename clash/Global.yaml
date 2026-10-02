@@ -292,6 +292,20 @@ payload:
   - DOMAIN-SUFFIX,trae.ai
   - DOMAIN-SUFFIX,traeapi.us
   - DOMAIN-SUFFIX,vidu.com
+  # >> Qoder / JOOX（自 666OS 迁入）
+  - DOMAIN-SUFFIX,qoder.com
+  - DOMAIN-SUFFIX,joox.com
+  # > Alibaba Cloud（国际站；国内站 aliyuncs.com 见 China.yaml）
+  - DOMAIN-SUFFIX,alibabacloud.com
+  - DOMAIN-SUFFIX,alibabacloud.co.in
+  - DOMAIN-SUFFIX,alibabacloud.com.au
+  - DOMAIN-SUFFIX,alibabacloud.com.hk
+  - DOMAIN-SUFFIX,alibabacloud.com.my
+  - DOMAIN-SUFFIX,alibabacloud.com.sg
+  - DOMAIN-SUFFIX,alibabacloud.com.tw
+  - DOMAIN-SUFFIX,alicloud.com
+  - DOMAIN-SUFFIX,xbase.cloud
+  - DOMAIN-SUFFIX,ctyun.online
   # > Akamai
   - DOMAIN,a248.e.akamai.net
   - DOMAIN,a771.dscq.akamai.net
@@ -402,6 +416,18 @@ payload:
   - DOMAIN-SUFFIX,dropbox.com
   - DOMAIN-SUFFIX,dropboxapi.com
   - DOMAIN-SUFFIX,dropboxusercontent.com
+  # > 海外网盘 / 券商 / 检测（自 666OS 迁入）
+  - DOMAIN-SUFFIX,pikpak.me
+  - DOMAIN-SUFFIX,pikpakdrive.com
+  - DOMAIN-SUFFIX,futu5.com
+  - DOMAIN-SUFFIX,futunn.com
+  - DOMAIN-SUFFIX,huobipro.com
+  - DOMAIN-SUFFIX,itigergrowth.com
+  - DOMAIN-SUFFIX,itigergrowtha.com
+  - DOMAIN-SUFFIX,hostloc.com
+  - DOMAIN-SUFFIX,trellocdn.com
+  - DOMAIN-SUFFIX,browserleaks.com
+  - DOMAIN-SUFFIX,whatismyip.com
   # > Docker（官方：docs.docker.com/desktop/setup/allow-list）
   - DOMAIN-SUFFIX,docker.com
   - DOMAIN-SUFFIX,docker.io
@@ -475,6 +501,73 @@ payload:
   - DOMAIN,assets2.xboxlive.com
   - DOMAIN,az416426.vo.msecnd.net
   - DOMAIN,az668014.vo.msecnd.net
+  # > 厂商国际站（自 666OS 迁入）
+  - DOMAIN-SUFFIX,hp.com
+  - DOMAIN-SUFFIX,hp-ww.com
+  - DOMAIN-SUFFIX,hpconnected.com
+  - DOMAIN-SUFFIX,hpstore-china.com
+  - DOMAIN-SUFFIX,oracle.com
+  - DOMAIN-SUFFIX,java.com
+  - DOMAIN-SUFFIX,amd.com
+  - DOMAIN-SUFFIX,sony.com
+  - DOMAIN-SUFFIX,sonyentertainmentnetwork.com
+  - DOMAIN-SUFFIX,kaspersky-labs.com
+  - DOMAIN-SUFFIX,miniso.com
+  - DOMAIN-SUFFIX,images-amazon.com
+  # > PayPal（2026-10 自 China.yaml 迁入：直连已不可达；666OS PayPal.txt 精选，
+  #    跳过钓鱼/防抢注域如 paypa1.com、login-paypal.com 等）
+  # >> 核心
+  - DOMAIN-SUFFIX,paypal.com
+  - DOMAIN-SUFFIX,paypal.me
+  - DOMAIN-SUFFIX,paypalobjects.com
+  - DOMAIN-SUFFIX,paypal-mktg.com
+  - DOMAIN-SUFFIX,pypl.com
+  - DOMAIN-SUFFIX,pypl.info
+  - DOMAIN-SUFFIX,pypl.net
+  - DOMAIN-SUFFIX,pypl.tv
+  # >> 国家/地区站
+  - DOMAIN-SUFFIX,paypal.ca
+  - DOMAIN-SUFFIX,paypal.hk
+  - DOMAIN-SUFFIX,paypal.info
+  - DOMAIN-SUFFIX,paypal.jp
+  - DOMAIN-SUFFIX,paypal.so
+  - DOMAIN-SUFFIX,paypal.us
+  - DOMAIN-SUFFIX,paypal.com.cn
+  - DOMAIN-SUFFIX,paypal.com.hk
+  - DOMAIN-SUFFIX,paypal.com.sg
+  # >> 旗下业务（Venmo / Xoom / Braintree / 信贷）
+  - DOMAIN-SUFFIX,venmo.com
+  - DOMAIN-SUFFIX,xoom.com
+  - DOMAIN-SUFFIX,xoom.io
+  - DOMAIN-SUFFIX,xoom.us
+  - DOMAIN-SUFFIX,s-xoom.com
+  - DOMAIN-SUFFIX,braintreegateway.com
+  - DOMAIN-SUFFIX,braintreepayments.com
+  - DOMAIN-SUFFIX,braintreepaymentsolutions.com
+  - DOMAIN-SUFFIX,getbraintree.com
+  - DOMAIN-SUFFIX,billmelater.com
+  - DOMAIN-SUFFIX,loanbuilder.com
+  - DOMAIN-SUFFIX,paypalcredit.com
+  - DOMAIN-SUFFIX,paypalhere.com
+  - DOMAIN-SUFFIX,paypalgivingfund.org
+  # >> 开发者 / 风控 / 社区
+  - DOMAIN-SUFFIX,krakenjs.com
+  - DOMAIN-SUFFIX,paydiant.com
+  - DOMAIN-SUFFIX,simility.com
+  - DOMAIN-SUFFIX,card.io
+  - DOMAIN-SUFFIX,pdncommunity.com
+  - DOMAIN-SUFFIX,pp-soc.com
+  - DOMAIN-SUFFIX,pppds.com
+  - DOMAIN-SUFFIX,devtools-paypal.com
+  - DOMAIN-SUFFIX,paypalcommunity.com
+  - DOMAIN-SUFFIX,paypal-status.com
+  # >> 中国业务（安付通 / 贝宝）
+  - DOMAIN-SUFFIX,anfutong.com
+  - DOMAIN-SUFFIX,anfutong.cn
+  - DOMAIN-SUFFIX,anfutong.com.cn
+  - DOMAIN-SUFFIX,beibao.com
+  - DOMAIN-SUFFIX,beibao.cn
+  - DOMAIN-SUFFIX,beibao.com.cn
   # > Pinterest
   - DOMAIN-SUFFIX,pinimg.com
   - DOMAIN-KEYWORD,.pinterest.
@@ -507,9 +600,97 @@ payload:
   # > Reuters
   - DOMAIN-SUFFIX,reuters.com
   - DOMAIN-SUFFIX,reutersmedia.net
+  # > Scholar（学术出版商；自 Extra/Scholar.yaml 合并，2026-10）
+  - DOMAIN-SUFFIX,acm.org
+  - DOMAIN-SUFFIX,acs.org
+  - DOMAIN-SUFFIX,aiaa.org
+  - DOMAIN-SUFFIX,aip.org
+  - DOMAIN-SUFFIX,ams.org
+  - DOMAIN-SUFFIX,annualreviews.org
+  - DOMAIN-SUFFIX,aps.org
+  - DOMAIN-SUFFIX,ascelibrary.org
+  - DOMAIN-SUFFIX,asm.org
+  - DOMAIN-SUFFIX,asme.org
+  - DOMAIN-SUFFIX,astm.org
+  - DOMAIN-SUFFIX,bmj.com
+  - DOMAIN-SUFFIX,cambridge.org
+  - DOMAIN-SUFFIX,cas.org
+  - DOMAIN-SUFFIX,cell.com
+  - DOMAIN-SUFFIX,clarivate.com
+  - DOMAIN-SUFFIX,csiro.au
+  - DOMAIN-SUFFIX,ebscohost.com
+  - DOMAIN-SUFFIX,elsevier.com
+  - DOMAIN-SUFFIX,emerald.com
+  - DOMAIN-SUFFIX,endnote.com
+  - DOMAIN-SUFFIX,engineeringvillage.com
+  - DOMAIN-SUFFIX,icevirtuallibrary.com
+  - DOMAIN-SUFFIX,ieee.org
+  - DOMAIN-SUFFIX,imf.org
+  - DOMAIN-SUFFIX,iop.org
+  - DOMAIN-SUFFIX,jamanetwork.com
+  - DOMAIN-SUFFIX,jbc.org
+  - DOMAIN-SUFFIX,jhu.edu
+  - DOMAIN-SUFFIX,jstor.org
+  - DOMAIN-SUFFIX,karger.com
+  - DOMAIN-SUFFIX,libguides.com
+  - DOMAIN-SUFFIX,madsrevolution.net
+  - DOMAIN-SUFFIX,mdpi.com
+  - DOMAIN-SUFFIX,mpg.de
+  - DOMAIN-SUFFIX,myilibrary.com
+  - DOMAIN-SUFFIX,nature.com
+  - DOMAIN-SUFFIX,ncbi.nlm.nih.gov
+  - DOMAIN-SUFFIX,oecd-ilibrary.org
+  - DOMAIN-SUFFIX,osapublishing.org
+  - DOMAIN-SUFFIX,oup.com
+  - DOMAIN-SUFFIX,ovid.com
+  - DOMAIN-SUFFIX,oxfordartonline.com
+  - DOMAIN-SUFFIX,oxfordbibliographies.com
+  - DOMAIN-SUFFIX,oxfordmusiconline.com
+  - DOMAIN-SUFFIX,pnas.org
+  - DOMAIN-SUFFIX,proquest.com
+  - DOMAIN-SUFFIX,rsc.org
+  - DOMAIN-SUFFIX,sagepub.com
+  - DOMAIN-SUFFIX,science.org
+  - DOMAIN-SUFFIX,sciencedirect.com
+  - DOMAIN-SUFFIX,sciencemag.org
+  - DOMAIN-SUFFIX,scitation.org
+  - DOMAIN-SUFFIX,sci-hub.tw
+  - DOMAIN-SUFFIX,scopus.com
+  - DOMAIN-SUFFIX,siam.org
+  - DOMAIN-SUFFIX,spiedigitallibrary.org
+  - DOMAIN-SUFFIX,springer.com
+  - DOMAIN-SUFFIX,springerlink.com
+  - DOMAIN-SUFFIX,tandfonline.com
+  - DOMAIN-SUFFIX,un.org
+  - DOMAIN-SUFFIX,uni-bielefeld.de
+  - DOMAIN-SUFFIX,webofknowledge.com
+  - DOMAIN-SUFFIX,westlaw.com
+  - DOMAIN-SUFFIX,wiley.com
+  - DOMAIN-SUFFIX,worldbank.org
+  - DOMAIN-SUFFIX,worldscientific.com
   # > Steam
   - DOMAIN-SUFFIX,steamcommunity.com
   # - DOMAIN,store.steampowered.com
+  # > Games（海外服 / 发行，自 666OS 迁入；origin-a.akamaihd.net 保持 China.yaml 直连）
+  # >> 米哈游海外
+  - DOMAIN-SUFFIX,genshinimpact.com
+  - DOMAIN-SUFFIX,honkaiimpact3.com
+  - DOMAIN-SUFFIX,honkaistarrail.com
+  - DOMAIN-SUFFIX,zenlesszonezero.com
+  - DOMAIN-SUFFIX,hoyo.link
+  - DOMAIN-SUFFIX,n0vadesktop.com
+  # >> 其他厂商海外服
+  - DOMAIN-SUFFIX,yostar.net
+  - DOMAIN-SUFFIX,supercell.com
+  - DOMAIN-SUFFIX,clashroyaleapp.com
+  - DOMAIN-SUFFIX,pokemon-unitepgame.com
+  # >> 游戏 CDN（Steam 社区被墙；暴雪/腾讯 CDN 走代理）
+  - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN,blzddist1-a.akamaihd.net
+  - DOMAIN-SUFFIX,qtlcdn.com
+  - DOMAIN-SUFFIX,localizecdn.com
+  - DOMAIN-SUFFIX,bscdnweb.com
+  - DOMAIN-SUFFIX,bstatic.com
   # > Telegram
   - DOMAIN-SUFFIX,legra.ph
   - DOMAIN-SUFFIX,t.me

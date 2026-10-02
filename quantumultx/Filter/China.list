@@ -18,11 +18,7 @@ DOMAIN,download.microsoft.com,DIRECT
 DOMAIN,wustat.windows.com,DIRECT
 DOMAIN,ntservicepack.microsoft.com,DIRECT
 # ------
-# > PayPal
-DOMAIN-SUFFIX,paypal.com,DIRECT
-DOMAIN-SUFFIX,paypal.me,DIRECT
-DOMAIN-SUFFIX,paypal-mktg.com,DIRECT
-DOMAIN-SUFFIX,paypalobjects.com,DIRECT
+# > PayPal 已迁 Global.list（2026-10：直连已不可达，需代理）
 # > Steam
 DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
 DOMAIN-SUFFIX,steamserver.net,DIRECT
@@ -36,6 +32,26 @@ DOMAIN,sms.imagetasks.com,DIRECT
 # > Speed Test
 DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
 DOMAIN,speedtest.macpaw.com,DIRECT
+DOMAIN-SUFFIX,speedtest.cn,DIRECT
+DOMAIN,speedtest.10086.cn,DIRECT
+# > 连网检测（Captive Portal / Connectivity Check，自 666OS Direct 迁入）
+DOMAIN,captive.apple.com,DIRECT
+DOMAIN,www.msftconnecttest.com,DIRECT
+DOMAIN,www.msftncsi.com,DIRECT
+DOMAIN,connect.rom.miui.com,DIRECT
+DOMAIN,connectivitycheck.platform.hicloud.com,DIRECT
+DOMAIN,connectivitycheck.platform.hihonorcloud.com,DIRECT
+DOMAIN,connect.qq.com,DIRECT
+DOMAIN,detectportal.firefox.com,DIRECT
+# > NTP 时间同步
+DOMAIN-SUFFIX,ntp.org,DIRECT
+DOMAIN,ntp.aliyun.com,DIRECT
+# > 公网 IP 查询（直连才能拿到真实出口 IP）
+DOMAIN,checkip.dyndns.org,DIRECT
+DOMAIN,checkipv6.dyndns.org,DIRECT
+# > 下载 CDN（国内有节点，直连更快）
+DOMAIN-SUFFIX,steamcontent.com,DIRECT
+DOMAIN-SUFFIX,quickconnect.to,DIRECT
 # > Private Tracker（国内站；境外站及 totheglory.im 已迁 Global.list 走代理）
 DOMAIN-SUFFIX,acg.rip,DIRECT
 DOMAIN-SUFFIX,chdbits.co,DIRECT
